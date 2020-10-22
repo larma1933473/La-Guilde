@@ -1,0 +1,116 @@
+﻿  Aventurier.cpp
+  Chrono.cpp
+  Elf.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Elf.cpp(2,12): error C2600: 'Elf::Elf' : impossible de définir une fonction membre spéciale générée par le compilateur (doit être déclarée d'abord dans la classe)
+  FactoryAventurier.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\FactoryAventurier.cpp(24,41): error C2248: 'Paladin::Paladin' : impossible d'accéder à private membre déclaré(e) dans la classe 'Paladin'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Paladin.h(8): message : voir la déclaration de 'Paladin::Paladin'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Paladin.h(6): message : voir la déclaration de 'Paladin'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\FactoryAventurier.cpp(26,38): error C2248: 'Mage::Mage' : impossible d'accéder à private membre déclaré(e) dans la classe 'Mage'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Mage.h(9): message : voir la déclaration de 'Mage::Mage'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Mage.h(7): message : voir la déclaration de 'Mage'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\FactoryAventurier.cpp(35,28): error C2512: 'Race::Race' : aucun constructeur par défaut approprié disponible
+M:\visual studio 2019\Projects\La Guilde\La Guilde\FactoryAventurier.cpp(40,36): error C2280: 'Humain::Humain(void)' : tentative de référencement d'une fonction supprimée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Humain.h(12): message : le compilateur a généré 'Humain::Humain' ici
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Humain.h(12,1): message : 'Humain::Humain(void)' : la fonction a été supprimée implicitement, car un classe de base 'Race' n'a pas de constructeur par défaut approprié ou la résolution de surcharge est ambiguë
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Race.h(4): message : voir la déclaration de 'Race'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\FactoryAventurier.cpp(41,35): error C2280: 'Troll::Troll(void)' : tentative de référencement d'une fonction supprimée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Troll.h(9): message : le compilateur a généré 'Troll::Troll' ici
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Troll.h(9,1): message : 'Troll::Troll(void)' : la fonction a été supprimée implicitement, car un classe de base 'Race' n'a pas de constructeur par défaut approprié ou la résolution de surcharge est ambiguë
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Race.h(4): message : voir la déclaration de 'Race'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\FactoryAventurier.cpp(42,33): error C2280: 'Elf::Elf(void)' : tentative de référencement d'une fonction supprimée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Elf.h(9): message : le compilateur a généré 'Elf::Elf' ici
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Elf.h(9,1): message : 'Elf::Elf(void)' : la fonction a été supprimée implicitement, car un classe de base 'Race' n'a pas de constructeur par défaut approprié ou la résolution de surcharge est ambiguë
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Race.h(4): message : voir la déclaration de 'Race'
+  FactoryQuete.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+  Guerrier.cpp
+  Guilde.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(6,1): error C2011: 'Guilde' : redéfinition du type 'class'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(10,9): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(11,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(12,2): error C2065: 'orDiponible' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(13,2): error C2065: 'finPartie' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(14,2): error C2065: 'tabAventurierChoisi' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(15,2): error C2065: 'tabAventurierChoisi' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(17,1): warning C4508: '{ctor}' : la fonction doit retourner une valeur ; type de retour 'void' pris par défaut
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(18,15): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(22,14): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(24,2): error C3861: 'update' : identificateur introuvable
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(27,14): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(30,3): error C3861: 'updateMenu' : identificateur introuvable
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(31,12): error C2065: 'finPartie' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(34,14): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(36,2): error C2065: 'listAventurierRecrutable' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(39,14): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(41,2): error C2065: 'listQuete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(44,14): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(49,14): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(54,10): error C2027: utilisation du type non défini 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(5): message : voir la déclaration de 'Guilde'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(55,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(60,12): error C2065: 'listAventurierRecrutable' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(60,52): error C2065: 'listAventurierRecrutable' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.cpp(66,1): warning C4508: '{dtor}' : la fonction doit retourner une valeur ; type de retour 'void' pris par défaut
+  Humain.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Humain.cpp(2,17): error C2600: 'Humain::Humain' : impossible de définir une fonction membre spéciale générée par le compilateur (doit être déclarée d'abord dans la classe)
+  La Guilde.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+  Mage.cpp
+  Paladin.cpp
+  Quete.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+  QueteAvance.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+  QueteEpique.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+  QueteFacile.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+  QueteMoyen.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,7): error C2065: 'Quete' : identificateur non déclaré
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(12,13): error C2059: erreur de syntaxe : '>'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(16,25): error C2061: erreur de syntaxe : identificateur 'Quete'
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(28,43): error C2535: 'Guilde::Guilde(int,bool)' : fonction membre déjà définie ou déclarée
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Guilde.h(22): message : voir la déclaration de 'Guilde::Guilde'
+  Race.cpp
+  Troll.cpp
+M:\visual studio 2019\Projects\La Guilde\La Guilde\Troll.cpp(2,16): error C2600: 'Troll::Troll' : impossible de définir une fonction membre spéciale générée par le compilateur (doit être déclarée d'abord dans la classe)
+  Génération de code en cours...
